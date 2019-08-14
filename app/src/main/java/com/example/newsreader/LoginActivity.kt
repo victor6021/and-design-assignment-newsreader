@@ -6,10 +6,6 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
 class LoginActivity : AppCompatActivity() {
-    companion object {
-        const val REQUEST_CODE = 2
-    }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
