@@ -39,18 +39,5 @@ class ListActivity : AppCompatActivity() {
             var readerIntent = Intent(this, DetailsActivity::class.java)
             startActivity(readerIntent)
         }
-
-        fun createImageView(image: Image, index: Int): ImageView{
-            var newImage = findViewById(R.id.)
-                newImage.id = index
-            return createImageView(newImage)
-        }
-    }
-
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        if(requestCode == REQUEST_CODE && resultCode == RESULT_OK){
-            var imageResult = image_details.setImageDrawable(Drawable) as Image
-            image_details.setImageDrawable(imageResult)
-        }
     }
 }
